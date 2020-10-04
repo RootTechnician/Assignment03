@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 30%;
+	margin: auto;
+}
+h2{
+	font-size: 30px;
+	color: mediumvioletred;
+	text-align: center;
+	padding-top: 10px 10px 10px 10px;
+}
+.icon-area ul{
+	padding: 10px 10px 10px 10px;
+	list-style: none;
+}
+.icon-area ul li{
+	display:inline-flex;
+}
+.icon-area ul li a{
+	background-color:peru;
+	color:white;
+	padding: 25px 25px;
+	font-size: 30px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+.icon-area ul li a:hover{
+	background-color:hotpink;
+	color:black;
+	border-radius: 50px;
+}
